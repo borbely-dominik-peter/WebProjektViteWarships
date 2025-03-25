@@ -56,7 +56,7 @@
             "type": "Battlecruiser",
             "launched": 1916,
             "main_gun_caliber": "15-inch"
-        }
+        },
       {
         "name": "HMS Caroline",
         "class": "Caroline",
