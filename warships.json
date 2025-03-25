@@ -1,3 +1,4 @@
+
 {
     "United Kingdom": [
         {
@@ -56,6 +57,195 @@
             "launched": 1916,
             "main_gun_caliber": "15-inch"
         }
+      {
+        "name": "HMS Caroline",
+        "class": "Caroline",
+        "type": "Light Cruiser",
+        "launched": 1914,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Carysford",
+        "class": "Caroline",
+        "type": "Light Cruiser",
+        "launched": 1914,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Cleopatra",
+        "class": "Caroline",
+        "type": "Light Cruiser",
+        "launched": 1915,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Comus",
+        "class": "Caroline",
+        "type": "Light Cruiser",
+        "launched": 1914,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Conquest",
+        "class": "Caroline",
+        "type": "Light Cruiser",
+        "launched": 1915,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Cordelia",
+        "class": "Caroline",
+        "type": "Light Cruiser",
+        "launched": 1914,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Castor",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1915,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Canterbury",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1915,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Curacoa",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1916,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Cassandra",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1916,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Caledon",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1916,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Caradoc",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1916,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Calliope",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1914,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Champion",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1914,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Cambrian",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1915,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Centaur",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1915,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Constance",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1915,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Coventry",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1916,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Curlew",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1916,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Cardiff",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1916,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Ceres",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1916,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Capetown",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1918,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Colombo",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1917,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Carlisle",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1917,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Cairo",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1918,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Calcutta",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1918,
+        "main_gun_caliber": "6-inch"
+      },
+      {
+        "name": "HMS Calypso",
+        "class": "C",
+        "type": "Light Cruiser",
+        "launched": 1916,
+        "main_gun_caliber": "6-inch"
+      }
     ],
     "Germany": [
         {
