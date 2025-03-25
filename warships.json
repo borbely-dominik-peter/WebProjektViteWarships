@@ -1,0 +1,249 @@
+{
+    "United Kingdom": [
+        {
+            "name": "HMS Dreadnought",
+            "class": "Dreadnought-class",
+            "type": "Battleship",
+            "launched": 1906,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "HMS Queen Elizabeth",
+            "class": "Queen Elizabeth-class",
+            "type": "Battleship",
+            "launched": 1913,
+            "main_gun_caliber": "15-inch"
+        },
+        {
+            "name": "HMS Warspite",
+            "class": "Queen Elizabeth-class",
+            "type": "Battleship",
+            "launched": 1913,
+            "main_gun_caliber": "15-inch"
+        },
+        {
+            "name": "HMS Iron Duke",
+            "class": "Iron Duke-class",
+            "type": "Battleship",
+            "launched": 1912,
+            "main_gun_caliber": "13.5-inch"
+        },
+        {
+            "name": "HMS Lion",
+            "class": "Lion-class",
+            "type": "Battlecruiser",
+            "launched": 1910,
+            "main_gun_caliber": "13.5-inch"
+        },
+        {
+            "name": "HMS Tiger",
+            "class": "Tiger-class",
+            "type": "Battlecruiser",
+            "launched": 1913,
+            "main_gun_caliber": "13.5-inch"
+        },
+        {
+            "name": "HMS Barham",
+            "class": "Queen Elizabeth-class",
+            "type": "Battleship",
+            "launched": 1914,
+            "main_gun_caliber": "15-inch"
+        },
+        {
+            "name": "HMS Repulse",
+            "class": "Renown-class",
+            "type": "Battlecruiser",
+            "launched": 1916,
+            "main_gun_caliber": "15-inch"
+        }
+    ],
+    "Germany": [
+        {
+            "name": "SMS Nassau",
+            "class": "Nassau-class",
+            "type": "Battleship",
+            "launched": 1908,
+            "main_gun_caliber": "11-inch"
+        },
+        {
+            "name": "SMS Derfflinger",
+            "class": "Derfflinger-class",
+            "type": "Battlecruiser",
+            "launched": 1913,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "SMS Seydlitz",
+            "class": "Seydlitz-class",
+            "type": "Battlecruiser",
+            "launched": 1912,
+            "main_gun_caliber": "11-inch"
+        },
+        {
+            "name": "SMS König",
+            "class": "König-class",
+            "type": "Battleship",
+            "launched": 1913,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "SMS Kaiser",
+            "class": "Kaiser-class",
+            "type": "Battleship",
+            "launched": 1911,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "SMS Moltke",
+            "class": "Moltke-class",
+            "type": "Battlecruiser",
+            "launched": 1910,
+            "main_gun_caliber": "11-inch"
+        },
+        {
+            "name": "SMS Hindenburg",
+            "class": "Derfflinger-class",
+            "type": "Battlecruiser",
+            "launched": 1915,
+            "main_gun_caliber": "12-inch"
+        }
+    ],
+    "United States": [
+        {
+            "name": "USS Nevada",
+            "class": "Nevada-class",
+            "type": "Battleship",
+            "launched": 1914,
+            "main_gun_caliber": "14-inch"
+        },
+        {
+            "name": "USS Arizona",
+            "class": "Pennsylvania-class",
+            "type": "Battleship",
+            "launched": 1915,
+            "main_gun_caliber": "14-inch"
+        },
+        {
+            "name": "USS Pennsylvania",
+            "class": "Pennsylvania-class",
+            "type": "Battleship",
+            "launched": 1915,
+            "main_gun_caliber": "14-inch"
+        },
+        {
+            "name": "USS Oklahoma",
+            "class": "Nevada-class",
+            "type": "Battleship",
+            "launched": 1914,
+            "main_gun_caliber": "14-inch"
+        }
+    ],
+    "France": [
+        {
+            "name": "Courbet",
+            "class": "Courbet-class",
+            "type": "Battleship",
+            "launched": 1911,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "Jean Bart",
+            "class": "Courbet-class",
+            "type": "Battleship",
+            "launched": 1911,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "Paris",
+            "class": "Courbet-class",
+            "type": "Battleship",
+            "launched": 1912,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "Bretagne",
+            "class": "Bretagne-class",
+            "type": "Battleship",
+            "launched": 1913,
+            "main_gun_caliber": "13.4-inch"
+        }
+    ],
+    "Italy": [
+        {
+            "name": "Conte di Cavour",
+            "class": "Conte di Cavour-class",
+            "type": "Battleship",
+            "launched": 1911,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "Andrea Doria",
+            "class": "Andrea Doria-class",
+            "type": "Battleship",
+            "launched": 1913,
+            "main_gun_caliber": "12-inch"
+        }
+    ],
+    "Russia": [
+        {
+            "name": "Gangut",
+            "class": "Gangut-class",
+            "type": "Battleship",
+            "launched": 1911,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "Petropavlovsk",
+            "class": "Gangut-class",
+            "type": "Battleship",
+            "launched": 1911,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "Sevastopol",
+            "class": "Gangut-class",
+            "type": "Battleship",
+            "launched": 1911,
+            "main_gun_caliber": "12-inch"
+        }
+    ],
+    "Austria-Hungary": [
+        {
+            "name": "SMS Viribus Unitis",
+            "class": "Tegetthoff-class",
+            "type": "Battleship",
+            "launched": 1911,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "SMS Tegetthoff",
+            "class": "Tegetthoff-class",
+            "type": "Battleship",
+            "launched": 1912,
+            "main_gun_caliber": "12-inch"
+        }
+    ],
+    "Japan": [
+        {
+            "name": "Kawachi",
+            "class": "Kawachi-class",
+            "type": "Battleship",
+            "launched": 1910,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "Settsu",
+            "class": "Kawachi-class",
+            "type": "Battleship",
+            "launched": 1911,
+            "main_gun_caliber": "12-inch"
+        },
+        {
+            "name": "Fuso",
+            "class": "Fuso-class",
+            "type": "Battleship",
+            "launched": 1914,
+            "main_gun_caliber": "14-inch"
+        }
+    ]
+}
