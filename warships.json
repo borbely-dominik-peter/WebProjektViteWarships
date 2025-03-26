@@ -1,439 +1,278 @@
-
 {
-    "United Kingdom": [
+    "countries": [
+        "United Kingdom", 
+        "France",
+        "USA",
+        "Russia",
+        "Germany",
+        "Austria-Hungary",
+        "Japan",
+        "Italy"
+    ],
+    "Warships": [
         {
             "name": "HMS Dreadnought",
             "class": "Dreadnought-class",
             "type": "Battleship",
             "launched": 1906,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country" : "United Kingdom" 
         },
         {
             "name": "HMS Queen Elizabeth",
             "class": "Queen Elizabeth-class",
             "type": "Battleship",
             "launched": 1913,
-            "main_gun_caliber": "15-inch"
+            "main_gun_caliber": "15-inch",
+            "country" : "United Kingdom" 
         },
         {
             "name": "HMS Warspite",
             "class": "Queen Elizabeth-class",
             "type": "Battleship",
             "launched": 1913,
-            "main_gun_caliber": "15-inch"
+            "main_gun_caliber": "15-inch",
+            "country" : "United Kingdom" 
         },
         {
             "name": "HMS Iron Duke",
             "class": "Iron Duke-class",
             "type": "Battleship",
             "launched": 1912,
-            "main_gun_caliber": "13.5-inch"
+            "main_gun_caliber": "13.5-inch",
+            "country" : "United Kingdom" 
         },
         {
             "name": "HMS Lion",
             "class": "Lion-class",
             "type": "Battlecruiser",
             "launched": 1910,
-            "main_gun_caliber": "13.5-inch"
+            "main_gun_caliber": "13.5-inch",
+            "country" : "United Kingdom" 
         },
         {
             "name": "HMS Tiger",
             "class": "Tiger-class",
             "type": "Battlecruiser",
             "launched": 1913,
-            "main_gun_caliber": "13.5-inch"
+            "main_gun_caliber": "13.5-inch",
+            "country" : "United Kingdom" 
         },
         {
             "name": "HMS Barham",
             "class": "Queen Elizabeth-class",
             "type": "Battleship",
             "launched": 1914,
-            "main_gun_caliber": "15-inch"
+            "main_gun_caliber": "15-inch",
+            "country" : "United Kingdom" 
         },
         {
             "name": "HMS Repulse",
             "class": "Renown-class",
             "type": "Battlecruiser",
             "launched": 1916,
-            "main_gun_caliber": "15-inch"
+            "main_gun_caliber": "15-inch",
+            "country" : "United Kingdom" 
         },
-      {
-        "name": "HMS Caroline",
-        "class": "Caroline",
-        "type": "Light Cruiser",
-        "launched": 1914,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Carysford",
-        "class": "Caroline",
-        "type": "Light Cruiser",
-        "launched": 1914,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Cleopatra",
-        "class": "Caroline",
-        "type": "Light Cruiser",
-        "launched": 1915,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Comus",
-        "class": "Caroline",
-        "type": "Light Cruiser",
-        "launched": 1914,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Conquest",
-        "class": "Caroline",
-        "type": "Light Cruiser",
-        "launched": 1915,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Cordelia",
-        "class": "Caroline",
-        "type": "Light Cruiser",
-        "launched": 1914,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Castor",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1915,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Canterbury",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1915,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Curacoa",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1916,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Cassandra",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1916,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Caledon",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1916,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Caradoc",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1916,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Calliope",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1914,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Champion",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1914,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Cambrian",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1915,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Centaur",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1915,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Constance",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1915,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Coventry",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1916,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Curlew",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1916,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Cardiff",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1916,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Ceres",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1916,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Capetown",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1918,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Colombo",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1917,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Carlisle",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1917,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Cairo",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1918,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Calcutta",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1918,
-        "main_gun_caliber": "6-inch"
-      },
-      {
-        "name": "HMS Calypso",
-        "class": "C",
-        "type": "Light Cruiser",
-        "launched": 1916,
-        "main_gun_caliber": "6-inch"
-      }
-    ],
-    "Germany": [
         {
             "name": "SMS Nassau",
             "class": "Nassau-class",
             "type": "Battleship",
             "launched": 1908,
-            "main_gun_caliber": "11-inch"
+            "main_gun_caliber": "11-inch",
+            "country": "Germany"
         },
         {
             "name": "SMS Derfflinger",
             "class": "Derfflinger-class",
             "type": "Battlecruiser",
             "launched": 1913,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country": "Germany"
         },
         {
             "name": "SMS Seydlitz",
             "class": "Seydlitz-class",
             "type": "Battlecruiser",
             "launched": 1912,
-            "main_gun_caliber": "11-inch"
+            "main_gun_caliber": "11-inch",
+            "country": "Germany"
         },
         {
             "name": "SMS König",
             "class": "König-class",
             "type": "Battleship",
             "launched": 1913,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country": "Germany"
         },
         {
             "name": "SMS Kaiser",
             "class": "Kaiser-class",
             "type": "Battleship",
             "launched": 1911,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country": "Germany"
         },
         {
             "name": "SMS Moltke",
             "class": "Moltke-class",
             "type": "Battlecruiser",
             "launched": 1910,
-            "main_gun_caliber": "11-inch"
+            "main_gun_caliber": "11-inch",
+            "country": "Germany"
         },
         {
             "name": "SMS Hindenburg",
             "class": "Derfflinger-class",
             "type": "Battlecruiser",
             "launched": 1915,
-            "main_gun_caliber": "12-inch"
-        }
-    ],
-    "United States": [
+            "main_gun_caliber": "12-inch",
+            "country": "Germany"
+        },
         {
             "name": "USS Nevada",
             "class": "Nevada-class",
             "type": "Battleship",
             "launched": 1914,
-            "main_gun_caliber": "14-inch"
+            "main_gun_caliber": "14-inch",
+            "country": "USA"
         },
         {
             "name": "USS Arizona",
             "class": "Pennsylvania-class",
             "type": "Battleship",
             "launched": 1915,
-            "main_gun_caliber": "14-inch"
+            "main_gun_caliber": "14-inch",
+            "country": "USA"
         },
         {
             "name": "USS Pennsylvania",
             "class": "Pennsylvania-class",
             "type": "Battleship",
             "launched": 1915,
-            "main_gun_caliber": "14-inch"
+            "main_gun_caliber": "14-inch",
+            "country": "USA"
         },
         {
             "name": "USS Oklahoma",
             "class": "Nevada-class",
             "type": "Battleship",
             "launched": 1914,
-            "main_gun_caliber": "14-inch"
-        }
-    ],
-    "France": [
+            "main_gun_caliber": "14-inch",
+            "country": "USA"
+        },
         {
             "name": "Courbet",
             "class": "Courbet-class",
             "type": "Battleship",
             "launched": 1911,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country" : "France"
         },
         {
             "name": "Jean Bart",
             "class": "Courbet-class",
             "type": "Battleship",
             "launched": 1911,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country" : "France"
         },
         {
             "name": "Paris",
             "class": "Courbet-class",
             "type": "Battleship",
             "launched": 1912,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country" : "France"
         },
         {
             "name": "Bretagne",
             "class": "Bretagne-class",
             "type": "Battleship",
             "launched": 1913,
-            "main_gun_caliber": "13.4-inch"
-        }
-    ],
-    "Italy": [
+            "main_gun_caliber": "13.4-inch",
+            "country" : "France"
+        },
         {
             "name": "Conte di Cavour",
             "class": "Conte di Cavour-class",
             "type": "Battleship",
             "launched": 1911,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country" : "Italy"
         },
         {
             "name": "Andrea Doria",
             "class": "Andrea Doria-class",
             "type": "Battleship",
             "launched": 1913,
-            "main_gun_caliber": "12-inch"
-        }
-    ],
-    "Russia": [
+            "main_gun_caliber": "12-inch",
+            "country" : "Italy"
+        },
         {
             "name": "Gangut",
             "class": "Gangut-class",
             "type": "Battleship",
             "launched": 1911,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country": "Russia"
         },
         {
             "name": "Petropavlovsk",
             "class": "Gangut-class",
             "type": "Battleship",
             "launched": 1911,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country": "Russia"
         },
         {
             "name": "Sevastopol",
             "class": "Gangut-class",
             "type": "Battleship",
             "launched": 1911,
-            "main_gun_caliber": "12-inch"
-        }
-    ],
-    "Austria-Hungary": [
+            "main_gun_caliber": "12-inch",
+            "country": "Russia"
+        },
         {
             "name": "SMS Viribus Unitis",
             "class": "Tegetthoff-class",
             "type": "Battleship",
             "launched": 1911,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country" : "Austria-Hungary"
         },
         {
             "name": "SMS Tegetthoff",
             "class": "Tegetthoff-class",
             "type": "Battleship",
             "launched": 1912,
-            "main_gun_caliber": "12-inch"
-        }
-    ],
-    "Japan": [
+            "main_gun_caliber": "12-inch",
+            "country" : "Austria-Hungary"
+        },
         {
             "name": "Kawachi",
             "class": "Kawachi-class",
             "type": "Battleship",
             "launched": 1910,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country" : "Japan"
         },
         {
             "name": "Settsu",
             "class": "Kawachi-class",
             "type": "Battleship",
             "launched": 1911,
-            "main_gun_caliber": "12-inch"
+            "main_gun_caliber": "12-inch",
+            "country" : "Japan"
         },
         {
             "name": "Fuso",
             "class": "Fuso-class",
             "type": "Battleship",
             "launched": 1914,
-            "main_gun_caliber": "14-inch"
+            "main_gun_caliber": "14-inch",
+            "country" : "Japan"
         }
     ]
 }
