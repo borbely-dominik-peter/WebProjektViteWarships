@@ -1,13 +1,13 @@
 {
     "countries": [
-        "United Kingdom", 
-        "France",
-        "USA",
-        "Russia",
-        "Germany",
-        "Austria-Hungary",
-        "Japan",
-        "Italy"
+        { "id": 1, "name": "United Kingdom" },
+        { "id": 2, "name": "France" },
+        { "id": 3, "name": "USA" },
+        { "id": 4, "name": "Russia" },
+        { "id": 5, "name": "Germany" },
+        { "id": 6, "name": "Austria-Hungary" },
+        { "id": 7, "name": "Japan" },
+        { "id": 8, "name": "Italy" }
     ],
     "Warships": [
         {
