@@ -1,6 +1,8 @@
 // code goes brrr
 
+import All from "./all.js";
 import Start from "./start.js";
+import ByCountry from "./bycountry.js";
 
 const ROUTINGTARGET = document.querySelector("#root");
 
@@ -10,8 +12,8 @@ const NavLinks = document.querySelectorAll("a[data-href]");
 
 const RoutingTable = {
     "/" : {page: "start.html", code: Start},
-    "/all" : {page: "all.html", code: null},
-    "/bycountry" : {page: "bycountry.html", code: null},
+    "/all" : {page: "all.html", code: All},
+    "/bycountry" : {page: "bycountry.html", code: ByCountry},
     "/byclass" : {page: "byclass.html", code: null},
     "/credits" : {page: "credits.html", code: null}
 }
@@ -40,14 +42,15 @@ const DynCode = (code) => {
 
 window.addEventListener("popstate", async () => {
     const data = await LoadPage(RoutingTable[window.location.pathname].page);
-    DynCode(RoutingTable[window.location.pathname].code);
     ROUTINGTARGET.innerHTML = data;
+    DynCode(RoutingTable[window.location.pathname].code);
 })
 
 window.addEventListener("load", async () => {
     const data = await LoadPage(RoutingTable[window.location.pathname].page);
-    DynCode(RoutingTable[window.location.pathname].code);
     ROUTINGTARGET.innerHTML = data;
+    DynCode(RoutingTable[window.location.pathname].code);
+
 })
 
 NavLinks.forEach(NavI => {
