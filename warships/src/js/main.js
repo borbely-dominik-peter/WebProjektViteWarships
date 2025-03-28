@@ -28,9 +28,9 @@ const NavClickEvent = async (event) => {
     event.preventDefault();
     let page = event.target.dataset.href;
     let data = await LoadPage(RoutingTable[page].page);
+    ROUTINGTARGET.innerHTML = data;
     DynCode(RoutingTable[page].code)
     window.history.pushState({},"",page)
-    ROUTINGTARGET.innerHTML = data;
 }
 
 const DynCode = (code) => {
