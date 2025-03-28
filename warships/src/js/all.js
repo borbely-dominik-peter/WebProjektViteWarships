@@ -25,8 +25,6 @@ export default class All{
             let ShipCountryShort = "";
             let ShipCountry = "";
             CountryData.forEach(Country => {
-                console.log(Country)
-                console.log(Ship.country)
                 if (Country.name == Ship.country) {
                     ShipCountryShort = Country.shortname
                     ShipCountry = Country.name

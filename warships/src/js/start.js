@@ -21,7 +21,6 @@ export default class Start{
         let countries = await this.LoadCountriesJSON();
         let CountryCount = countries.length;
         let ShipCount = data.length
-        console.log(data);
         document.querySelector("#CountryCount").innerHTML = CountryCount;
         document.querySelector("#ShipCount").innerHTML = ShipCount;
     }

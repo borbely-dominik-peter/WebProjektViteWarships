@@ -33,7 +33,6 @@ export default class ByYear{
         selectList.forEach(c =>{
             options += `<option value="${c.name}">${c.name}</option>`;
         });
-        console.log(options)
         formSelect.innerHTML = options;
     }
 
