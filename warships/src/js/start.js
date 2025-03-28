@@ -1,6 +1,7 @@
 export default class Start{
     constructor() {
         this.Counter()
+        this.AddCountries()
     }
 
     async LoadJSON(){
@@ -23,5 +24,14 @@ export default class Start{
         console.log(data);
         document.querySelector("#CountryCount").innerHTML = CountryCount;
         document.querySelector("#ShipCount").innerHTML = ShipCount;
+    }
+
+    async AddCountries(){
+        let countries = await this.LoadCountriesJSON();
+        countries.forEach(c => {
+            let li = document.createElement("li");
+            li.innerHTML =  c.name;
+            document.querySelector("#countries").appendChild(li);
+        });
     }
 }
