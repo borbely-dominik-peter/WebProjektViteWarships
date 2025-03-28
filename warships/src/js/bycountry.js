@@ -1,8 +1,9 @@
 export default class ByCountry{
     constructor(){
         this.OptionFiller();
+        this.TableMaker();
         document.querySelector("#CountryOpt").addEventListener("input", async (event) => {
-            this.TableMaker(document.querySelector("#CountryOpt").value)
+            this.TableMaker(event.target.value)
         })
     }
 
@@ -20,6 +21,9 @@ export default class ByCountry{
 
     async OptionFiller(){
         const data = await this.LoadCountriesJSON();
+        document.querySelector("#CountryOpt").innerHTML += `
+                <option value="">All</option>
+            `
         data.forEach(dat => {
             document.querySelector("#CountryOpt").innerHTML += `
                 <option value="${dat.name}">${dat.name}</option>
@@ -27,13 +31,14 @@ export default class ByCountry{
         })
     }
 
-    async TableMaker(ChosenCountry){
+    async TableMaker(){
+        var ChosenCountry = document.querySelector("#CountryOpt").value;
         const ShipData = await this.LoadShipsJSON();
         const CountryData = await this.LoadCountriesJSON();
         const TargetTable = document.querySelector("#TargetTable tbody");
         TargetTable.innerHTML = "";
         ShipData.forEach(Ship => {
-            if (ChosenCountry == Ship.country) {
+            if (ChosenCountry == Ship.country || ChosenCountry == "") {
                 let tr = document.createElement("tr");
                 let ShipCountryShort = "";
                 let ShipCountry = "";
