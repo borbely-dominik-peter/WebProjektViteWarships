@@ -3,6 +3,7 @@
 import All from "./all.js";
 import Start from "./start.js";
 import ByCountry from "./bycountry.js";
+import ByYear from "./byyear.js";
 
 const ROUTINGTARGET = document.querySelector("#root");
 
@@ -14,7 +15,7 @@ const RoutingTable = {
     "/" : {page: "start.html", code: Start},
     "/all" : {page: "all.html", code: All},
     "/bycountry" : {page: "bycountry.html", code: ByCountry},
-    "/byclass" : {page: "byclass.html", code: null},
+    "/byyear" : {page: "byclass.html", code: ByYear},
     "/credits" : {page: "credits.html", code: null}
 }
 
